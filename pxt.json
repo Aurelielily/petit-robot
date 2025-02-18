@@ -1,0 +1,30 @@
+{
+    "name": "Petit robot",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microbit-robot": "github:microsoft/microbit-robot#v2.7.2",
+        "MakerBit-Ultrasonic": "github:1010technologies/pxt-makerbit-ultrasonic#v1.0.8",
+        "Project 18.3：Ultrasonic Follow Smart Car": "pkg:Project 18.3：Ultrasonic Follow Smart Car.json",
+        "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.9"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "Project 18.3：Ultrasonic Follow Smart Car.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.57",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
